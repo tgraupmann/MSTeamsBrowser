@@ -79,7 +79,7 @@ HRESULT Tab::Init(ICoreWebView2Environment* env, bool shouldBeActive)
             return S_OK;
         }).Get(), &m_securityUpdateToken));
 
-        RETURN_IF_FAILED(m_contentWebView->Navigate(L"https://www.bing.com"));
+        RETURN_IF_FAILED(m_contentWebView->Navigate(L"https://teams.microsoft.com"));
         browserWindow->HandleTabCreated(m_tabId, shouldBeActive);
 
         return S_OK;

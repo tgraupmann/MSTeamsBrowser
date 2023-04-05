@@ -15,3 +15,5 @@ x86/
 
 // Ignore the binary generated version of the resource (.rc) file
 *.aps
+
+Output/
